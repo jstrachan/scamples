@@ -23,12 +23,12 @@
   </pluginRepositories>
 
   <dependencies>
-      <dependency>
-        <groupId>org.scala-lang</groupId>
-        <artifactId>scala-library</artifactId>
-        <version>2.7.5</version>
-      </dependency>
-    </dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.7.5</version>
+    </dependency>
+  </dependencies>
 
 
   <build>
@@ -64,4 +64,13 @@
       </plugin>
     </plugins>
   </reporting>
+
+  <distributionManagement>
+    <site>
+      <id>gh-pages</id>
+      <!-- This gets automatically pushed to the gh-pages branch. -->
+      <url>file:${project.basedir}/site</url>
+    </site>
+  </distributionManagement>
+
 </project>
