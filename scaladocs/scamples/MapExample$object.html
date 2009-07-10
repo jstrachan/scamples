@@ -2,7 +2,7 @@
 <html>
       <head>
       
-      <title>Scala Samples 1.0-SNAPSHOT API : scamples.PeopleThingy</title>
+      <title>Scala Samples 1.0-SNAPSHOT API : scamples.MapExample</title>
       <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
       <meta content="scaladoc (0.1-SNAPSHOT)" name="generator"></meta>
       <script type="text/javascript" src="./../jquery-1.2.3.js"></script>
@@ -31,7 +31,7 @@
         <td class="NavBarCell2">
       <a href="./../index.html" target="_top">FRAMES</a>
       &nbsp;&nbsp;
-      <a href="PeopleThingy$object.html" target="_top">NO FRAMES</a>
+      <a href="MapExample$object.html" target="_top">NO FRAMES</a>
     </td>
         <td class="NavBarCell3"><a href="#" title="show/hide inherited" class="btnInherited" onclick="toggleInherited()">INHERITED<input type="checkbox" class="filter_inherited_cb" checked="true"></input></a></td>
       </tr>
@@ -40,21 +40,27 @@
       
       <!-- ======== START OF CLASS DATA ======== -->
       <h2>
-      <span style="font-size:80%">scamples.PeopleThingy</span>
+      <span style="font-size:80%">scamples.MapExample</span>
       <br></br>
-      object PeopleThingy
+      object MapExample
       </h2>
       <div id="intro">
-      <code class="signature">object PeopleThingy</code>
+      <code class="signature">object MapExample</code>
       <code class="signature">
         <br></br>&nbsp;extends
         <a href="http://www.scala-lang.org/docu/files/api/scala/ScalaObject.html" title="scala.ScalaObject" >ScalaObject</a>
       </code>
       <br></br>
-      
+      <div class="apiComments">
+        
+        <dl>
+         <dt>version</dt>
+          <dd><code></code> - $Revision: 1.1 $</dd>
+          </dl>
+      </div>
       <br></br>
       
-      Source: <a href="./PeopleThingy.scala.html#Some(9)">PeopleThingy.scala(9)</a>
+      Source: <a href="./MapExample.scala.html#Some(7)">MapExample.scala(7)</a>
       </div>
       
       
@@ -79,14 +85,42 @@
         <tbody class="TableRowColor">
         <tr class="">
       <td class="name">
-        <b>people</b>
+        <b>greetings</b>
       </td>
       <td class="signature">
-        <code class="signature">def people</code>
+        <code class="signature">def greetings</code>
         
         
       </td>
-      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="./Person.html" title="scamples.Person" >Person</a>]</td>
+      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html" title="java.lang.String" >String</a>]</td>
+      <td class="remarks">
+        
+        
+      </td>
+    </tr><tr class="">
+      <td class="name">
+        <b>lengths</b>
+      </td>
+      <td class="signature">
+        <code class="signature">def lengths</code>
+        
+        
+      </td>
+      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="http://www.scala-lang.org/docu/files/api/scala/Int.html" title="scala.Int" >Int</a>]</td>
+      <td class="remarks">
+        
+        
+      </td>
+    </tr><tr class="">
+      <td class="name">
+        <b>names</b>
+      </td>
+      <td class="signature">
+        <code class="signature">val names</code>
+        
+        
+      </td>
+      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html" title="java.lang.String" >String</a>]</td>
       <td class="remarks">
         
         
@@ -105,20 +139,6 @@
         <b>!=</b>
       </td>
       <td class="signature">
-        <code class="signature">final def !=(arg0 : <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" title="scala.Any" >Any</a>)</code>
-        
-        
-      </td>
-      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/Boolean.html" title="scala.Boolean" >Boolean</a></td>
-      <td class="remarks">
-        
-        <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" title="scala.Any" >Any</a>
-      </td>
-    </tr><tr class="isInherited">
-      <td class="name">
-        <b>!=</b>
-      </td>
-      <td class="signature">
         <code class="signature">final def !=(arg0 : <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html" title="java.lang.Object" >Object</a>)</code>
         
         
@@ -130,17 +150,17 @@
       </td>
     </tr><tr class="isInherited">
       <td class="name">
-        <b>==</b>
+        <b>!=</b>
       </td>
       <td class="signature">
-        <code class="signature">final def ==(arg0 : <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html" title="java.lang.Object" >Object</a>)</code>
+        <code class="signature">final def !=(arg0 : <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" title="scala.Any" >Any</a>)</code>
         
         
       </td>
       <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/Boolean.html" title="scala.Boolean" >Boolean</a></td>
       <td class="remarks">
         
-        <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" title="scala.AnyRef" >AnyRef</a>
+        <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" title="scala.Any" >Any</a>
       </td>
     </tr><tr class="isInherited">
       <td class="name">
@@ -155,6 +175,20 @@
       <td class="remarks">
         
         <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" title="scala.Any" >Any</a>
+      </td>
+    </tr><tr class="isInherited">
+      <td class="name">
+        <b>==</b>
+      </td>
+      <td class="signature">
+        <code class="signature">final def ==(arg0 : <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html" title="java.lang.Object" >Object</a>)</code>
+        
+        
+      </td>
+      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/Boolean.html" title="scala.Boolean" >Boolean</a></td>
+      <td class="remarks">
+        
+        <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" title="scala.AnyRef" >AnyRef</a>
       </td>
     </tr><tr class="isInherited">
       <td class="name">
@@ -282,20 +316,6 @@
         
         
       </td>
-    </tr><tr class="">
-      <td class="name">
-        <b>minorsAndAdults</b>
-      </td>
-      <td class="signature">
-        <code class="signature">def minorsAndAdults</code>
-        
-        
-      </td>
-      <td class="type">(<a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="./Person.html" title="scamples.Person" >Person</a>], <a href="http://www.scala-lang.org/docu/files/api/scala/List.html" title="scala.List" >List</a>[<a href="./Person.html" title="scamples.Person" >Person</a>])</td>
-      <td class="remarks">
-        
-        
-      </td>
     </tr><tr class="isInherited">
       <td class="name">
         <b>ne</b>
@@ -371,6 +391,20 @@
         <b>wait</b>
       </td>
       <td class="signature">
+        <code class="signature">final def wait(arg0 : <a href="http://www.scala-lang.org/docu/files/api/scala/Long.html" title="scala.Long" >Long</a>, arg1 : <a href="http://www.scala-lang.org/docu/files/api/scala/Int.html" title="scala.Int" >Int</a>)</code>
+        
+        
+      </td>
+      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/Unit.html" title="scala.Unit" >Unit</a></td>
+      <td class="remarks">
+        
+        <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" title="scala.AnyRef" >AnyRef</a>
+      </td>
+    </tr><tr class="isInherited">
+      <td class="name">
+        <b>wait</b>
+      </td>
+      <td class="signature">
         <code class="signature">final def wait</code>
         
         
@@ -386,20 +420,6 @@
       </td>
       <td class="signature">
         <code class="signature">final def wait(arg0 : <a href="http://www.scala-lang.org/docu/files/api/scala/Long.html" title="scala.Long" >Long</a>)</code>
-        
-        
-      </td>
-      <td class="type"><a href="http://www.scala-lang.org/docu/files/api/scala/Unit.html" title="scala.Unit" >Unit</a></td>
-      <td class="remarks">
-        
-        <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" title="scala.AnyRef" >AnyRef</a>
-      </td>
-    </tr><tr class="isInherited">
-      <td class="name">
-        <b>wait</b>
-      </td>
-      <td class="signature">
-        <code class="signature">final def wait(arg0 : <a href="http://www.scala-lang.org/docu/files/api/scala/Long.html" title="scala.Long" >Long</a>, arg1 : <a href="http://www.scala-lang.org/docu/files/api/scala/Int.html" title="scala.Int" >Int</a>)</code>
         
         
       </td>
@@ -428,7 +448,7 @@
         <td class="NavBarCell2">
       <a href="./../index.html" target="_top">FRAMES</a>
       &nbsp;&nbsp;
-      <a href="PeopleThingy$object.html" target="_top">NO FRAMES</a>
+      <a href="MapExample$object.html" target="_top">NO FRAMES</a>
     </td>
         <td class="NavBarCell3"><a href="#" title="show/hide inherited" class="btnInherited" onclick="toggleInherited()">INHERITED<input type="checkbox" class="filter_inherited_cb" checked="true"></input></a></td>
       </tr>

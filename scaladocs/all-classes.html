@@ -1,13 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-        <head><title>List of all classes and objects</title>
-        <meta http-equiv="content-type" content="text/html; charset=UTF8"></meta><meta content="scaladoc (version 2.7.5.final)" name="generator"></meta><link href="style.css" type="text/css" rel="stylesheet"></link><script type="text/javascript" src="script.js"></script>
-        </head>
-        <body onload="init()"><div><div class="kinds" id="Classes">Classes</div><ul class="list">
-        <li id="Classes_P"><a href="scamples/Person.html" target="contentFrame">Person</a></li>
-        </ul>
-<div class="kinds" id="Objects">Objects</div><ul class="list">
-        <li id="Objects_P"><a href="scamples/PeopleThingy$object.html" target="contentFrame">PeopleThingy</a></li>
-<li><a href="scamples/Person$object.html" target="contentFrame">Person</a></li>
-        </ul></div></body>
-      </html>
+      <head>
+      
+      <title>List of all classes and objects</title>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+      <meta content="scaladoc (0.1-SNAPSHOT)" name="generator"></meta>
+      <script type="text/javascript" src="./jquery-1.2.3.js"></script>
+    
+      
+      <link href="./all-classes.css" type="text/css" rel="stylesheet"></link>
+      <script src="./all-classes.js" id="all-classes"></script>
+    
+      </head>
+      
+      
+      <h2>Filters</h2>
+      <div class="ctrl">
+        <select multiple="true" size="6.5" id="packagesFilter">
+          <option>scamples</option>
+        </select>
+        <div id="kindFilters">
+          <a href="#" title="Class" class="class" id="filter_class">Class<input type="checkbox" checked="true" id="filter_class_cb"></input></a>
+          <a href="#" title="Trait" class="trait" id="filter_trait">Trait<input type="checkbox" checked="true" id="filter_trait_cb"></input></a>
+          <a href="#" title="Object" class="object" id="filter_object">Object<input type="checkbox" checked="true" id="filter_object_cb"></input></a>
+        </div>
+        <input type="text" id="nameFilter"></input><br></br>
+        <a href="#" onclick="$('#userOptions').toggle()">Options</a><br></br>
+        <div style="text-align:left" id="userOptions">
+          <a href="#" class="btnOption" onclick="togglefilter4NameOptions('filter4NameIgnoreCase')"><input type="checkbox" class="option_filter4NameIgnoreCase_cb" checked="false"></input>Name filter ignore case</a><br></br>
+          <a href="#" class="btnOption" onclick="togglefilter4NameOptions('filter4NameAsRegExp')"><input type="checkbox" class="option_filter4NameAsRegExp_cb" checked="false"></input>Name filter is reg. exp.</a><br></br>
+        </div>
+      </div>
+    
+      
+      <h2>Classes</h2>
+      <ul id="classes">
+      <li title="object" class="object" package="scamples"><a href="./scamples/MapExample$object.html" title="scamples.MapExample" target="contentFrame">MapExample</a></li><li title="object" class="object" package="scamples"><a href="./scamples/PeopleThingy$object.html" title="scamples.PeopleThingy" target="contentFrame">PeopleThingy</a></li><li title="class" class="class" package="scamples"><a href="./scamples/Person.html" title="scamples.Person" target="contentFrame">Person</a></li><li title="object" class="object" package="scamples"><a href="./scamples/Person$object.html" title="scamples.Person" target="contentFrame">Person</a></li>
+      </ul>
+    
+    
+    </html>
